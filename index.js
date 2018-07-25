@@ -23,7 +23,7 @@
 
   
 const driversByRevenue = function (drivers) {
-  drivers.slice().sort(function (first,second) {
+  return drivers.slice().sort(function (first,second) {
     return first.revenue - second.revenue;
   });
 };
