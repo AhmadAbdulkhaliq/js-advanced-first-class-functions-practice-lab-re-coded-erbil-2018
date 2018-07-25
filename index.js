@@ -36,6 +36,6 @@ const driversByName = function (drivers) {
 
 const totalRevenue = function (array) {
   return array.reduce(function (total, currentArrayItem) {
-    return currentDriver.revenue + total;
+    return currentArrayItem.revenue + total;
   },null);
 };
