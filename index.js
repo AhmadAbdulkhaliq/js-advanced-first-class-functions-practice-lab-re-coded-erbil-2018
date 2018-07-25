@@ -27,3 +27,4 @@ const driversByRevenue = function (drivers) {
     return first.revenue - second.revenue;
   });
 };
+
