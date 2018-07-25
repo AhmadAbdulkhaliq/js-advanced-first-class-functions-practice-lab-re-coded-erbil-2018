@@ -41,10 +41,10 @@ const totalRevenue = function (array) {
 };
 
 
-const averageRevenue = function (drivers) {
+const averageRevenue = function (array) {
   return function (array) {
   return array.reduce(function (total, currentArrayItem) {
     return currentArrayItem.revenue + total;
   },null);
-}/ drivers.length;
+}/ array.length;
 };
