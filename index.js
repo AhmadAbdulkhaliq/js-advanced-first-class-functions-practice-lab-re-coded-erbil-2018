@@ -34,8 +34,8 @@ const driversByName = function (drivers) {
   });
 };
 
-const totalRevenue = function (drivers) {
-  return drivers.reduce(function (total, currentDriver) {
+const totalRevenue = function (array) {
+  return array.reduce(function (total, currentArrayItem) {
     return currentDriver.revenue + total;
   },null);
 };
