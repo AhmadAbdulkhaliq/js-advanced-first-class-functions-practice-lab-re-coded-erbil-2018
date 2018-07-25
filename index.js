@@ -22,14 +22,14 @@
   };
 
   
-const driversByRevenue = function (drivers) {
-  return drivers.slice().sort(function (first,second) {
+const driversByRevenue = function (array) {
+  return array.slice().sort(function (first,second) {
     return first.revenue - second.revenue;
   });
 };
 
-const driversByName = function (drivers) {
-  return drivers.slice().sort(function (a, b) {
+const driversByName = function (array) {
+  return array.slice().sort(function (a, b) {
     return a.name.localeCompare(b.name);
   });
 };
