@@ -42,10 +42,10 @@ const totalRevenue = function (array) {
 
 
 const averageRevenue = function (array) {
-  let total= function (array) {
+  let final= function (array) {
   return array.reduce(function (total, currentArrayItem) {
     return currentArrayItem.revenue + total;
   },null);
 }
-return total/array.length;
+return final/array.length;
 };
